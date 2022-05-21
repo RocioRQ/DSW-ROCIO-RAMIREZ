@@ -1,40 +1,47 @@
-header{
-    display:flex;
-    flex-direction:row;
+header {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     background-color: #97DBAE;
     padding: 20px;
     color: aliceblue;
 }
-nav{
+
+nav {
     background-color: #C3E5AE;
     color: beige;
 }
-section{
+
+section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-article{
-    background-color: #F1E1A6 ;
-    grid-column:1/4;
+
+article {
+    background-color: #F1E1A6;
+    grid-column: 1/4;
 }
-aside{
+
+aside {
     background-color: #F4BBBB;
     padding: 30px;
     grid-column: 4/5;
 }
-footer{
-    background-color:#97DBAE;
+
+footer {
+    background-color: #97DBAE;
     color: beige;
     padding: 10px;
 }
-.menu{
-    display:flex;
-    flex-direction:row;
+
+.menu {
+    display: flex;
+    flex-direction: row;
     justify-content: space-around
 }
+
 @media screen and (max-width:768px) {
-    header {  
-        flex-direction: column; 
-    }    
-}   
+    header {
+        flex-direction: column;
+    }
+}
